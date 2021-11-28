@@ -37,8 +37,8 @@ contract Puppies is Royal721 {
         mintingfee = 1000000000;
         lastfeeupdate = block.timestamp;
 
-        baseurl = "<THEBASE>/api/v1/meta/";
-        projecturl = "<THEBASE>/api/v1/project/";
+        baseurl = "https://ponzipuppies.com/api/v1/meta/";
+        projecturl = "https://ponzipuppies.com/api/v1/project/";
 
         _mint("Rare Pupper", 0xe9c6afffe6d5ffd5d5008000008000ffaaaaffe6d51a1a1aff8080d7eef4);
         _mint("Ghost", 0xffffffffffffffffffc491c100f700000000ffffff1a1a1affaaaa000000);

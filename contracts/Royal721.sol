@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract Royal721 is Stripped721 {
 
-    address beneficiary = 0x0000000000000000000000000000000000000000;
+    address beneficiary = 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720;
 
     address weth;
 
